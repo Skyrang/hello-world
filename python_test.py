@@ -266,23 +266,23 @@
 
 
 
-#학생 성적 관리 프로그램
-# 학생들의 이름과 점수를 저장한 딕셔너리 생성
-student1 = {'name': 'Alice', 'score': 80}
-student2 = {'name': 'Bob', 'score': 90}
-student3 = {'name': 'Charlie', 'score': 70}
+# #학생 성적 관리 프로그램
+# # 학생들의 이름과 점수를 저장한 딕셔너리 생성
+# student1 = {'name': 'Alice', 'score': 80}
+# student2 = {'name': 'Bob', 'score': 90}
+# student3 = {'name': 'Charlie', 'score': 70}
 
-# 딕셔너리를 리스트에 추가
-students = [student1, student2, student3]
+# # 딕셔너리를 리스트에 추가
+# students = [student1, student2, student3]
 
-# 학생들의 성적 출력
-for student in students:
-    print(f"{student['name']}의 성적은 {student['score']}점입니다.")
+# # 학생들의 성적 출력
+# for student in students:
+#     print(f"{student['name']}의 성적은 {student['score']}점입니다.")
     
-# 학생들의 평균 점수 계산
-total_score = 0
-for student in students:
-    total_score += student['score']
+# # 학생들의 평균 점수 계산
+# total_score = 0
+# for student in students:
+#     total_score += student['score']
 
-average_score = total_score / len(students)
-print(f"학생들의 평균 점수는 {average_score}점입니다.")
+# average_score = total_score / len(students)
+# print(f"학생들의 평균 점수는 {average_score}점입니다.")
